@@ -21,7 +21,7 @@ def exercise2():
     x = input('Enter x: ')
     if not is_number(x):
         print('x must be a number')
-        return
+        return 
     
     activation_func = input('Enter activation function (sigmoid/relu/elu): ')
     x = float(x)
